@@ -1,0 +1,6 @@
+@Rahul.StateWeatherForecast.Api_HostAddress = http://localhost:5125
+
+GET {{Rahul.StateWeatherForecast.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

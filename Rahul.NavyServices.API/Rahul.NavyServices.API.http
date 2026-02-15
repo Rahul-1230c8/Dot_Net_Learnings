@@ -1,0 +1,6 @@
+@Rahul.NavyServices.API_HostAddress = http://localhost:5120
+
+GET {{Rahul.NavyServices.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

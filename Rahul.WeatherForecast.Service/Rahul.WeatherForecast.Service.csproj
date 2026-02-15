@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <!-- NuGet metadata -->
+	  <PackageId>Rahul.WeatherForecast.Service</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Bravo Team</Authors>
+	  <Company>Rahul Solutions</Company>
+	  <Description>Reusable utilities for weather forecast</Description>
+	  <PackageTags>dotnet;utilities</PackageTags>
+	  <RepositoryUrl>https://github.com/myorg/mylib</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <!-- or omit if private -->
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+	  <!-- Recommended -->
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+</Project>
+
