@@ -8,11 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Rahul.WeatherForecast.Service\Rahul.WeatherForecast.Service.csproj" />
   </ItemGroup>
 
 </Project>

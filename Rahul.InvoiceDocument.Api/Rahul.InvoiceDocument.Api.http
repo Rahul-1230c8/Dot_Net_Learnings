@@ -1,0 +1,6 @@
+@Rahul.InvoiceDocument.Api_HostAddress = http://localhost:5135
+
+GET {{Rahul.InvoiceDocument.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

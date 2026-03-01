@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Rahul.WeatherForecast.Service;
 
-namespace Rahul.FlightService.Api.Controllers
+namespace Rahul.DocumentGeneration.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -20,9 +19,9 @@ namespace Rahul.FlightService.Api.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<Rahul.WeatherForecast.Service.WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new Rahul.WeatherForecast.Service.WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),

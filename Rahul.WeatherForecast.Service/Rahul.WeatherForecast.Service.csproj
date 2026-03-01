@@ -22,5 +22,9 @@
 	  <DebugType>portable</DebugType>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
+  </ItemGroup>
+
 </Project>
 
