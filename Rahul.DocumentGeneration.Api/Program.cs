@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 1. Services
 builder.Services.AddControllers();
-builder.Services.AddOpenApi(); // .NET 9 requirement
+//builder.Services.AddOpenApi(); // .NET 9 requirement
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -11,7 +11,7 @@ var app = builder.Build();
 // 2. Middleware Pipeline
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    //app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
